@@ -1,0 +1,10 @@
+<!-- <p>
+  signup works!
+</p> -->
+<form (submit)="signup($event)">
+  <h1>Create your account</h1>
+  <input type="text" name="name" placeholder="Name" id="name">
+  <input type="tel" name="phone" placeholder="Phone" id="phone">
+  <a routerLink="signup:email" class="use-email" >Use email instead</a>
+<input type="submit" class="btn btn-info submit-signup" value="Sign up">
+</form>

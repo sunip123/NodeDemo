@@ -1,0 +1,12 @@
+<p>
+  login works!
+</p>
+<h1>Login</h1>
+<form action="" (submit)="loginUser($event)">
+<input type="text" name="name" placeholder="Phone, email or username " id="username">
+<input type="password" name="password" placeholder="Password" id ="password">
+<input type="submit" class="btn btn-info" value="Log in" >
+<a routerLink="forgetpassword">Forgot password?</a>.
+<a routerLink="signup">Sign up</a>
+<router-outlet></router-outlet>
+</form>

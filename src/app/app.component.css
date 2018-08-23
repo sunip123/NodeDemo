@@ -1,0 +1,31 @@
+.container{
+padding-top:100px;
+}
+.signup{
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+  
+    text-align: center;
+    white-space: nowrap;
+    width:100%;
+}
+.login{
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    border: 1px solid #1da1f2;
+    color:#1da1f2;
+    text-align: center;
+    white-space: nowrap;
+    width:100%;
+    margin-bottom: 16px;
+margin-top:16px;
+display: block;
+}
