@@ -3,8 +3,12 @@
 </p> -->
 <form (submit)="signup($event)">
   <h1>Create your account</h1>
-  <input type="text" name="name" placeholder="Name" id="name">
-  <input type="tel" name="phone" placeholder="Phone" id="phone">
+  <input type="email" name="email" placeholder="E-mail" id="email">
+  <input type="password" name="password" placeholder="Password" id="password">
+  <input type="confirmpassword" name="confirmpassword" placeholder="Confirm Password" id="confirmpassword">
+  <input type="text" name="name" placeholder="Nickname" id="name">
+  <input type="text" name="recidency" placeholder="Habitual Recidency" id="Recidency">
+  <input type="tel" name="phone" placeholder="+91 Phone" id="phone">
   <a routerLink="signup:email" class="use-email" >Use email instead</a>
 <input type="submit" class="btn btn-info submit-signup" value="Sign up">
 </form>
